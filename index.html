@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <h1>Binary to Decimal Converter</h1>
-
-    <form onsubmit="e.preventDefault()">
+    
+    <form onsubmit="event.preventDefault()">
         <div class="wrapper">
+            <h1>Binary to Decimal Converter</h1>
             <div class="binary-wrapper">
                 <label for="binary"
                 id="binary-label">
@@ -25,12 +25,14 @@
                 id="binary-input" 
                 pattern="^[0-1]+$/g">
            
-				<button 
+				<div>
+                    <button 
                 type="submit" 
                 class="btn-convert"
 				onclick="insert()">
                     Convert
                 </button>
+                </div>
 			</div>
 
             <div class="decimal-wrapper">

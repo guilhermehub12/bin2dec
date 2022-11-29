@@ -32,3 +32,6 @@ constraints:
 ## Bonus features
 
 -   [ ] User can enter a variable number of binary digits
+
+Background Image by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/binary-code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
