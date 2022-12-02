@@ -51,6 +51,10 @@ form .wrapper {
     padding: 1em;
 }
 
+form p {
+    color: red;
+}
+
 form label {
     font-weight: 600;
     font-size: 1.2rem;

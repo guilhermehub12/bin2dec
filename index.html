@@ -14,16 +14,18 @@
     <form onsubmit="event.preventDefault()">
         <div class="wrapper">
             <h1>Binary to Decimal Converter</h1>
+            <p>Use apenas 0 e 1 (Limite de 8 caracteres)</p>
             <div class="binary-wrapper">
                 <label for="binary"
                 id="binary-label">
                     Binary Number
                 </label>
                 <input 
-                type="number" 
+                type="tel" 
                 name="binary" 
+                maxlength="8"
                 id="binary-input" 
-                pattern="^[0-1]+$/g">
+                pattern="[0-1]{8}">
            
 				<div>
                     <button 
